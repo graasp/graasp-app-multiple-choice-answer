@@ -2210,6 +2210,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@faker-js/faker@npm:9.5.0":
+  version: 9.5.0
+  resolution: "@faker-js/faker@npm:9.5.0"
+  checksum: 10/7dfcdf81a01b41f04e6b3a40b1c164658f1d309af8a8585ce36409758d1ee0de02e875c5e2a7163c88225ef5679386ca9706a64c800b525d8f2747967b2171ed
+  languageName: node
+  linkType: hard
+
 "@floating-ui/core@npm:^1.6.0":
   version: 1.6.8
   resolution: "@floating-ui/core@npm:1.6.8"
@@ -2297,18 +2304,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graasp/sdk@npm:4.13.0":
-  version: 4.13.0
-  resolution: "@graasp/sdk@npm:4.13.0"
+"@graasp/sdk@npm:5.10.0":
+  version: 5.10.0
+  resolution: "@graasp/sdk@npm:5.10.0"
   dependencies:
-    "@faker-js/faker": "npm:8.4.1"
-    filesize: "npm:10.1.2"
+    "@faker-js/faker": "npm:9.5.0"
+    filesize: "npm:10.1.6"
     js-cookie: "npm:3.0.5"
-    validator: "npm:13.12.0"
   peerDependencies:
-    date-fns: ^3
-    uuid: ^9 || ^10.0.0
-  checksum: 10/13ee13a6025172016efcecb36b1d7d052439dfb3daa0817559031f4c8b8bd6abc14cd328ffae174225378c51252cd63bee4195234d279605879e56971f90907c
+    date-fns: ^3 || ^4.0.0
+    uuid: ^9 || ^10 || ^11.0.0
+  checksum: 10/8e8d4fa29a84f741982217b1086cc3b98933a3b8eb255f020522f7c61ad6f4e4b0cca4cd35dd013aa01bd76303d958b04de3f3ffe7d2d9088dd9b081baee5d5e
   languageName: node
   linkType: hard
 
@@ -6196,6 +6202,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"filesize@npm:10.1.6":
+  version: 10.1.6
+  resolution: "filesize@npm:10.1.6"
+  checksum: 10/e800837c4fc02303f1944d5a4c7b706df1c5cd95d745181852604fb00a1c2d55d2d3921252722bd2f0c86b59c94edaba23fa224776bbf977455d4034e7be1f45
+  languageName: node
+  linkType: hard
+
 "fill-range@npm:^7.1.1":
   version: 7.1.1
   resolution: "fill-range@npm:7.1.1"
@@ -6656,7 +6669,7 @@ __metadata:
     "@emotion/styled": "npm:11.13.0"
     "@fontsource/roboto": "npm:^5.0.8"
     "@graasp/apps-query-client": "npm:3.4.15"
-    "@graasp/sdk": "npm:4.13.0"
+    "@graasp/sdk": "npm:5.10.0"
     "@graasp/ui": "npm:5.2.2"
     "@mui/icons-material": "npm:6.1.6"
     "@mui/lab": "npm:5.0.0-alpha.173"
